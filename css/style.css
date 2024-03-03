@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 img {
   width: 100%;
 }
@@ -42,7 +47,7 @@ ul {
   display: flex;
   justify-content: center;
   background-color: lightblue;
-  height: 400px;
+
   width: 100%;
 }
 
@@ -50,7 +55,7 @@ ul {
   margin-top: 40px;
  min-height: 360px; 
   width: 80%;
-  background-color: brown;  
+
 }
 
 .herotitle > h1{
@@ -62,7 +67,7 @@ ul {
 .herop{
   width: 20%;
   min-height:30px;
-  border: solid black 1px;
+
 }
 
 .poster {
@@ -91,11 +96,12 @@ ul {
   margin-top: 200px;
   width: 650px;
   min-height: 900px;
-  border: 3px solid black;
+
 }
 
 .containertitlecard {
   width: 100%;
+ 
   
   height: 100px;
 }
@@ -103,7 +109,7 @@ ul {
 .etichetta{
   width: 100%;
   height: 5%;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   text-align: center;
 }
 
@@ -129,7 +135,7 @@ ul {
 
   width: 200px;
   height: 600px;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
   
 }
 
@@ -140,14 +146,33 @@ ul {
 .listcardspace{
   margin-top: 20px;
   line-height: 30px;
+ ;
+}
+.fontsizesmaller{
+  font-size: smaller;
 }
 
 .buttonstyle{
   margin-top: 20px;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 6px;
+  border-radius: 3px;
   background-color: blue;
   color: white;
+  text-align: i;
+  border: none;
+}
+
+
+
+.spaceitem{
+  height: 30px;
+  width: 100%;
+  
+}
+
+.halfline{
+  width: 20%;
+  color: lightgray;
 }
 
 
