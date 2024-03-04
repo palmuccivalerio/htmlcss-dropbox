@@ -24,8 +24,8 @@ ul {
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 35px;
-  border: 1px solid black;
+  height: 45px;
+ 
   width: 100%;
   position: fixed;
   z-index: 9999999;
@@ -41,32 +41,53 @@ ul {
 
 .listcontainer li {
   margin-right: 10px; 
+  margin-top: 10px;
+  padding: 5px;
+  font-size: small;
 }
+
+
+.listcontainer-b li {
+  margin-left: 10px; 
+  margin-top: 5px;
+  padding: 10px;
+  font-size: small;
+}
+
+.listcontainer-b .buttonstyle{
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+
+
 
 .herosection {
   display: flex;
   justify-content: center;
   background-color: lightblue;
-
+height: fit-content;
   width: 100%;
 }
 
 .containerhero {
   margin-top: 40px;
  min-height: 360px; 
+ height: fit-content;
   width: 80%;
 
 }
 
 .herotitle > h1{
   display: flex;
+  height: fit-content;
   flex-direction: row;
 }
 
 
 .herop{
   width: 20%;
-  min-height:30px;
+height: fit-content;
 
 }
 
@@ -269,8 +290,11 @@ ul {
 }
 
 .boxlogo img{
- width: 200px;
- height: 100px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+ 
 
 }
 
@@ -285,12 +309,13 @@ ul {
 
   border:1px solid black;
   width: 50%;
-  height: 50%
+  height: 50%;
+  padding: 45px;
+  aspect-ratio: 1;
+  justify-content: center;
 }
 
-.logobx img{
-  padding: 10px;
-}
+
 
 .downlogocontainer {
   display: flex;
