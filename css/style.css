@@ -362,6 +362,10 @@ color: darkred;
   justify-content: center;
 }
 
+.containeritem2 > div {
+
+}
+
 .footerlist {
   padding: 10px;
   color: white;
